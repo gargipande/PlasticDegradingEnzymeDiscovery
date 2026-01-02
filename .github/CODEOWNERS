@@ -1,0 +1,30 @@
+# CODEOWNERS file for Plastic Degrading Enzymes Discovery
+# Each line is a file pattern followed by one or more owners.
+# These owners will be the default reviewers for pull requests.
+
+# Global owner for all files
+* @gargipande @kaushik-k1 @wadageriiqbal-ux
+
+# ML Models and Training
+/generated_models/ @gargipande @kaushik-k1 @wadageriiqbal-ux
+/src/train_models/ @gargipande @kaushik-k1 @wadageriiqbal-ux
+/src/selecting_models/ @gargipande @kaushik-k1 @wadageriiqbal-ux
+
+# Data Processing
+/raw_data/ @gargipande @kaushik-k1 @wadageriiqbal-ux
+/processed_dataset/ @gargipande @kaushik-k1 @wadageriiqbal-ux
+
+# Encoding Strategies
+/src/encoding_approaches/ @gargipande @kaushik-k1 @wadageriiqbal-ux
+
+# Model Evaluation
+/src/checking_and_characterizing_models/ @gargipande @kaushik-k1 @wadageriiqbal-ux
+/src/exploring_generated_sequences/ @gargipande @kaushik-k1 @wadageriiqbal-ux
+
+# Configuration and Environment
+/environment*.yml @gargipande @kaushik-k1 @wadageriiqbal-ux
+/configs/ @gargipande @kaushik-k1 @wadageriiqbal-ux
+
+# Demo Scripts
+demo_prediction.py @gargipande @kaushik-k1 @wadageriiqbal-ux
+test_petase.py @gargipande @kaushik-k1 @wadageriiqbal-ux
